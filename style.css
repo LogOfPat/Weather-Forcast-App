@@ -17,7 +17,7 @@
     width: 75%;
 }
 .cities{
-    background-color: rgb(155, 155, 220);
+    /* background-color: rgb(155, 155, 220); */
     padding: 10px
 }
 
@@ -32,7 +32,8 @@
 }
 
 .forecast{
-    background-color: rgb(212, 135, 135);
+    /* background-color: rgb(212, 135, 135); */
+
 }
 
 .current-forecast{

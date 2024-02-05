@@ -137,5 +137,35 @@ getForecast(currentCity);
 //SAVE LOCAL DATA
 
 saveInput = function (city){
+    const saved = [getSaved()];
+    saved.push(city);
+    localStorage.setItem('city-list', JSON.stringify(saved));
+}
+
+getSaved = function (){
+    let savedCities;
+    if(localStorage.getItem('city-list') === null){
+       savedCities = [];
+    }
+    else {
+       savedCities = [localStorage.getItem('city-list')];
+    }
+    return savedCities;
+}
+
+renderSaved = function (cities){
+    console.log(cities);
+    const length = cities.length;
+    const dropdown = document.getElementById('dropdown');
+    for(let i = 0; i < length; i++){
+        const menuItem =  document.createElement('p');
+        menuItem.textContent = cities[i];
+        dropdown.appendChild(menuItem);
+    }
+}
+
+renderSaved(getSaved());
+
 
 }
+
