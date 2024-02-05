@@ -1,0 +1,60 @@
+.header{
+    height: 50px;
+}
+
+.underline{
+    width: inherit;
+    border-bottom: solid;
+}
+
+.row{
+    justify-content: space-around;
+}
+
+.input{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+}
+.cities{
+    /* background-color: rgb(155, 155, 220); */
+    padding: 10px
+}
+
+.city-list{
+    display:flex;
+    flex-direction: column;
+}
+
+.city-list .btn{
+    width: 75%;
+    margin: 10px 5px;
+}
+
+.forecast{
+    /* background-color: rgb(212, 135, 135); */
+}
+
+.current-forecast{
+    border-style: solid;
+    border-color: rgb(34, 28, 28);
+    margin: 10px auto;
+}
+
+.future-forecast{
+
+}
+
+.forecast{
+    padding: 10px;
+}
+
+.forecast-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forecast-cards .card{
+    width: 16rem;
+    margin: 0px 5px;
+}
