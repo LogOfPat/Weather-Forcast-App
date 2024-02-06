@@ -167,5 +167,3 @@ renderSaved = function (cities){
 renderSaved(getSaved());
 
 
-}
-
