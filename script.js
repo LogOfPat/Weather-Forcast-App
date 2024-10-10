@@ -1,3 +1,4 @@
+
 class Forecast {
     constructor(city, date, temp, wind, humidity){
         this.city = city;
@@ -8,9 +9,8 @@ class Forecast {
     }
 }
 
-//API key
-const APIkey = 'ef8090169357620ce4ba8071aaf9a2e1';
-
+//APIkey
+const APIkey = 'ef8090169357620ce4ba8071aaf9a2e1'
 
 //global variables.  Current city set to austin by default
 let currentCity = 'austin';
