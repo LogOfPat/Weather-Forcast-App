@@ -1,3 +1,5 @@
+
+
 .header{
     height: 50px;
 }
@@ -31,11 +33,6 @@
     margin: 10px 5px;
 }
 
-.forecast{
-    /* background-color: rgb(212, 135, 135); */
-
-}
-
 .current-forecast{
     border-style: solid;
     border-color: rgb(34, 28, 28);
@@ -43,11 +40,11 @@
 }
 
 .future-forecast{
-
+    padding-left: 0px;
 }
 
 .forecast{
-    padding: 10px;
+    
 }
 
 .forecast-cards{
